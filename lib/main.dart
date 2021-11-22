@@ -1,4 +1,3 @@
-import 'package:email_validator/email_validator.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/button_builder.dart';
@@ -60,9 +59,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   validator: (String? value) {
                     if (value!.isEmpty) {
                       return 'Please enter some text';
-                    }
-                    if (!EmailValidator.validate(value)) {
-                      return 'Not a valid email';
                     }
                     return null;
                   },
