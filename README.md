@@ -42,14 +42,15 @@ $ flutter run
 
 And input your **existing** email address on this app, then an email link will be sent to the address like below (may take a minutes).
 
-![alt text](./email_link.png)
+<img src="./email_link.png" width="600px">
 
 Access the email link (e.g `data にログイン`) **on the device which has this app**. You will receive `Successfully signed in!` message.
+
 ![alt text](./successfully_sign_in_ios.gif)
 
 * `Open link in app?` process is only when iOS. ([ref.](https://firebase.googleblog.com/2017/09/whats-new-with-firebase-dynamic-links.html))
 
 And after `Successfully signed in!` message, the email link authenticated user will be created.
 
-![alt text](./user_created.png)
+<img src="./user_created.png" width="800px">
 
