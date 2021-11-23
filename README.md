@@ -54,3 +54,8 @@ And after `Successfully signed in!` message, the email link authenticated user w
 
 <img src="./user_created.png" width="800px">
 
+# Appendix
+
+Image of the entire flow of MailLink Login.
+
+![alt text](./maillink_entire_flow_image.png)
