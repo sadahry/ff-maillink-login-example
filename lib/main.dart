@@ -8,8 +8,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 final FirebaseAuth _auth = FirebaseAuth.instance;
 final ActionCodeSettings _setting = ActionCodeSettings(
   androidPackageName: 'com.example.ff_maillink_login_example',
-  // firebase_dynamic_links が minSdkVersion 19 であるため
-  androidMinimumVersion: '19',
+  // アプリのリリースバージョン指定。どんなバージョンでもアプリにリンクするよう'0'を指定
+  androidMinimumVersion: '0',
   androidInstallApp: true,
   handleCodeInApp: true,
   iOSBundleId: 'com.example.ffMaillinkLoginExample',
