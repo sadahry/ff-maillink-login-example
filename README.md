@@ -4,6 +4,8 @@
 
 The flutter project example of MailLink Login by [FlutterFire](https://firebase.flutter.dev/).
 
+※日本語の記事は[こちら](https://zenn.dev/sadahiroyoshi/articles/d3dc4e079889b0)
+
 ## Prerequisites
 * [Create New Firebase Project](https://console.firebase.google.com/)
 
