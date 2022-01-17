@@ -4,6 +4,8 @@
 
 The flutter project example of MailLink Login by [FlutterFire](https://firebase.flutter.dev/).
 
+※日本語の記事は[こちら](https://zenn.dev/sadahiroyoshi/articles/d3dc4e079889b0)
+
 ## Prerequisites
 * [Create New Firebase Project](https://console.firebase.google.com/)
 
@@ -27,6 +29,10 @@ The flutter project example of MailLink Login by [FlutterFire](https://firebase.
 
 * [Configure Dynamic Links](https://firebase.google.com/docs/auth/web/passing-state-in-email-actions#configuring_firebase_dynamic_links)
     * The domain will be `{{the_domain_you_specified}}.page.link` if you won't use your own domain
+
+* [Enable Email Link sign-in for your Firebase project](https://firebase.google.com/docs/auth/android/email-link-auth#enable_email_link_sign-in_for_your_firebase_project)
+
+* Whitelist the domain `{{the_domain_you_specified}}.page.link` in authorized domains in `Authentication -> Sing-in method`
 
 * Replace `ffloginexample.page.link` to `{{the_domain_you_specified}}.page.link` in this repo
 
